@@ -1,7 +1,7 @@
 {
     "name": "maxmumford/youtube-filter",
     "description": "Adds a twig filter that will transform regular YouTube watch URLs to embed URLs.",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "type": "bolt-extension",
     "keywords": [
       "youtube",
@@ -27,17 +27,17 @@
     "prefer-stable": true,
     "autoload": {
         "psr-4": {
-            "Bolt\\Extension\\MaxMumford\\YoutubeFilter\\": "src"
+            "Bolt\\Extension\\MaxMumford\\YouTubeFilter\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Bolt\\Extension\\MaxMumford\\YoutubeFilter\\Tests\\": "tests",
+            "Bolt\\Extension\\MaxMumford\\YouTubeFilter\\Tests\\": "tests",
             "Bolt\\Tests\\": "vendor/bolt/bolt/tests/phpunit/unit/"
         }
     },
     "extra": {
         "bolt-assets": "web",
-        "bolt-class": "Bolt\\Extension\\MaxMumford\\YoutubeFilter\\YoutubeFilterExtension"
+        "bolt-class": "Bolt\\Extension\\MaxMumford\\YouTubeFilter\\YouTubeFilterExtension"
     }
 }
